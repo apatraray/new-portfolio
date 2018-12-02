@@ -1,0 +1,147 @@
+#whole_page{
+  margin: 40px;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.central-image-container{
+  width: 100%;
+  height: 60%;
+}
+.boxText{
+  font-size: 1.2em;
+  margin-top: 2px;
+}
+.box{
+  margin-bottom: 20px;
+}
+/*Styling the header of the page*/
+#header__inner{
+  display: flex;
+  flex-wrap: wrap;
+  height: 130px;
+  width: 100%;
+}
+#header__logo{
+  width: 10%;
+  height: 100px;
+}
+#header__text{
+  width: 90%;
+  text-align: right;
+  color: #2d3c49;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+#header__title{
+  font-size: 50px;
+  margin-bottom: 0;
+  color: #5c2bab;
+}
+#header__workTitle{
+  font-size: 20px;
+  margin-top: 0;
+  color: #696262;
+}
+hr{
+  width: 100%;
+  background-color: #696262;
+  height: 3px;
+}
+/*Styling central part of the page*/
+#content{
+  margin-top: 50px;
+}
+#centralContent{
+  margin-bottom: 30px;
+}
+#central_image{
+  width: 100%;
+  height: 400px;
+}
+#mainText{
+  word-break: break-all;
+  font-size: 1.2em;
+  color: #1d1b1b;
+  margin-top: 2px;
+}
+/* Styling the bottom part of the page containing three images*/
+#workHeader{
+  font-size: 2em;
+  color: #696262;
+}
+#workDescription{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+img{
+  width: 100%;
+}
+.memory-game, .myReads-App, .neighborhood-map{
+  width: 32%;
+  color: #2d3c49;
+  text-align: center;
+}
+.memory-game, .myReads-App{
+  margin-right: 2%;
+}
+.featuredWorkText, .featuredWorkLink{
+  color: #1d1b1b;
+}
+.featuredWorkText{
+  font-size: 1.5em;
+}
+@media only screen and (max-width: 670px) {
+  #whole_page{
+    margin: 10px;
+    margin-top: 5px;
+  }
+  #central_image{
+    width: 100%;
+    height: 250px;
+  }
+  #workHeader{
+    text-align: center;
+  }
+  .memory-game, .myReads-App, .neighborhood-map{
+    width: 100%;
+    margin-bottom: 2px;
+  }
+  #header__title{
+    font-size: 30px;
+  }
+  #header__workTitle{
+    font-size: 10px;
+  }
+  #header__logo{
+    height: 30px;
+  }
+  #content{
+    margin-top: 10px;
+  }
+}
+@media only screen and (min-width: 670px) and (max-width: 775px) {
+  #whole_page{
+    margin: 20px;
+    margin-top: 10px;
+    margin-right: 35px;
+  }
+  #header__title{
+    font-size: 40px;
+  }
+  #header__workTitle{
+    font-size: 20px;
+  }
+  #header__logo{
+    height: 60px;
+  }
+  #central_image{
+    width: 100%;
+    height: 300px;
+  }
+}
+@media only screen and (min-width: 430px) and (max-width: 900px) {
+  .featuredWorkLink{
+    font-size: 0.8em;
+  }
+}
