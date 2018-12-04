@@ -1,4 +1,4 @@
-# Pixel Art Maker Project
+# Portfolio
 
 This is a responsive website that will display images, descriptions and links to each of the portfolio projects
 
